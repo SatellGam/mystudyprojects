@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"sklad","c":"ps5","l":"getconsole()"},{"p":"sklad","c":"ps5","l":"getinfo()"},{"p":"sklad","c":"ps5","l":"ps5()","url":"%3Cinit%3E()"},{"p":"sklad","c":"ps5","l":"setnewcomplect(complectation)","url":"setnewcomplect(sklad.complectation)"}]

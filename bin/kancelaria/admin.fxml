@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kancelaria.orderlistcontrol">
+   <children>
+      <AnchorPane layoutY="84.0" prefHeight="315.0" prefWidth="600.0" style="-fx-background-color: #FaFaFa;">
+         <children>
+            <Label layoutX="35.0" layoutY="14.0" text="order list:">
+               <font>
+                  <Font name="Courier New" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="433.0" layoutY="14.0" text="warehouse:">
+               <font>
+                  <Font name="Courier New" size="22.0" />
+               </font>
+            </Label>
+            <Line endX="76.0" endY="208.0" layoutX="327.0" layoutY="107.0" startX="76.0" startY="-109.0" />
+            <Label layoutX="214.0" layoutY="55.0" text="number:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="214.0" layoutY="95.0" text="console:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="214.0" layoutY="144.0" text="status:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <Line endX="-322.0" endY="-81.0" layoutX="322.0" layoutY="126.0" startX="278.0" startY="-81.0" />
+            <Label layoutX="214.0" layoutY="182.0" text="time:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="number_of_order" editable="false" layoutX="296.0" layoutY="54.0" prefHeight="26.0" prefWidth="96.0" promptText="number of order" />
+            <TextField fx:id="console" editable="false" layoutX="296.0" layoutY="93.0" prefHeight="26.0" prefWidth="96.0" promptText="console" />
+            <TextField fx:id="order_status" editable="false" layoutX="296.0" layoutY="142.0" prefHeight="26.0" prefWidth="96.0" promptText="order status" />
+            <TextField fx:id="time" editable="false" layoutX="296.0" layoutY="180.0" prefHeight="26.0" prefWidth="96.0" promptText="time of order" />
+            <Label layoutX="413.0" layoutY="68.0" text="ps5:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="413.0" layoutY="95.0" text="ps4:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="413.0" layoutY="121.0" text="xbox sx:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="413.0" layoutY="147.0" text="xbox ss:">
+               <font>
+                  <Font name="Courier New Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cislops5" layoutX="490.0" layoutY="66.0" prefHeight="26.0" prefWidth="96.0" promptText="number" />
+            <TextField fx:id="cislops4" layoutX="490.0" layoutY="92.0" prefHeight="26.0" prefWidth="96.0" promptText="number" />
+            <TextField fx:id="cisloxboxsx" layoutX="490.0" layoutY="118.0" prefHeight="26.0" prefWidth="96.0" promptText="number" />
+            <TextField fx:id="cisloxboxss" layoutX="490.0" layoutY="144.0" prefHeight="26.0" prefWidth="96.0" promptText="number" />
+            <Button fx:id="edit" layoutX="464.0" layoutY="179.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="edit">
+               <font>
+                  <Font name="Courier New" size="14.0" />
+               </font>
+            </Button>
+            <ChoiceBox fx:id="order_select" layoutX="33.0" layoutY="91.0" prefWidth="150.0" />
+            <Line endX="-322.0" endY="-81.0" layoutX="322.0" layoutY="294.0" startX="278.0" startY="-81.0" />
+            <Button fx:id="new_game" layoutX="453.0" layoutY="283.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="new game ">
+               <font>
+                  <Font name="Courier New" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="gametextfield" layoutX="413.0" layoutY="232.0" prefHeight="26.0" prefWidth="174.0" promptText="game_name" />
+            <Button fx:id="new_autokurier" layoutX="149.0" layoutY="284.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="112.0" style="-fx-background-color: #f39c63;" text="new auto courier">
+               <font>
+                  <Font name="Courier New" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="new_autokurier1" layoutX="282.0" layoutY="284.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="112.0" style="-fx-background-color: #f39c63;" text="new bike courier">
+               <font>
+                  <Font name="Courier New" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="autokuriername" layoutX="149.0" layoutY="217.0" prefHeight="26.0" prefWidth="112.0" promptText="courier name" />
+            <TextField fx:id="bikekuriername" layoutX="282.0" layoutY="217.0" prefHeight="26.0" prefWidth="112.0" promptText="courier name" />
+            <TextField fx:id="autokurierphone" layoutX="149.0" layoutY="250.0" prefHeight="26.0" prefWidth="112.0" promptText="courier phone" />
+            <TextField fx:id="bikekurierphone" layoutX="282.0" layoutY="250.0" prefHeight="26.0" prefWidth="112.0" promptText="courier phone" />
+            <Button fx:id="getinfo" layoutX="65.0" layoutY="141.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="get info">
+               <font>
+                  <Font name="Courier New" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="automodel" layoutX="14.0" layoutY="217.0" prefHeight="27.0" prefWidth="112.0" promptText="auto model" />
+            <TextField fx:id="autonumber" layoutX="14.0" layoutY="250.0" prefHeight="27.0" prefWidth="112.0" promptText="auto number" />
+            <TextField fx:id="autocolor" layoutX="14.0" layoutY="283.0" prefHeight="27.0" prefWidth="112.0" promptText="auto color" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="188.0" layoutY="31.0" text="Rent Service" textFill="#f8f8f8">
+         <font>
+            <Font name="Courier Oblique" size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="logout" layoutX="13.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: #f39c63;" text="log out">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
